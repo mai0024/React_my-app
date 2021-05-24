@@ -1,0 +1,70 @@
+.title{
+    position: relative;
+    display: inline-block;
+    display: block;
+    text-align: center;
+    margin-bottom: 90px;
+    
+  }
+.title:before, .title:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      display: inline-block;
+      width: 115px;
+      height: 2px;
+      background-color:#707070;
+    }
+
+    .title:before {
+      left:500px;
+    }
+    .title:after {
+      right: 500px;
+    }
+
+    .pf_img{
+        margin-left: 193px;
+        z-index: 3;
+    }
+    .square{
+        width: 750px;
+        height: 295px;
+        background:rgba(250,236,245,0.5);
+        position: relative;
+        float: right;
+        margin-top: -210px;
+        margin-right: 193px;
+        z-index: 4;
+      }
+      .square .p{
+        width: 515px;
+        color:#3C3C3C;
+        position: absolute;
+        letter-spacing: 0.02em;
+        top: 50%;
+        left: 50%;
+        line-height: 24px;
+        transform: translateY(-50%)translateX(-50%);
+        margin-bottom: 195px;
+      }
+      .about{
+        margin-bottom: 195px;
+        animation-name: fadeIn;
+        animation-duration: 3s;
+      }
+
+      @keyframes fadeIn {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    } 
+    .fadein {
+      opacity : 0;
+      transform: translateY(24px);
+      transition: 1.5s;
+     }
+    

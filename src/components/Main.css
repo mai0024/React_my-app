@@ -1,0 +1,24 @@
+
+.Main{
+    text-align: center;
+}
+.mv{
+    text-align: center;
+    margin-left: 360px;
+    margin-bottom: 195px;
+}
+
+.main_name{
+    margin-top: 260px;
+    margin-left: -360px;
+    position: absolute;
+    z-index: 2;
+}
+
+.main_img{
+    margin-top: 98px;
+    position: relative;
+    z-index: 1;
+}
+
+
